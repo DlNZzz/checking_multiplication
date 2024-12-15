@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/iv_multiplication_table"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img"
+        android:contentDescription="@string/multiplication_table_image" />
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите число от 2 до 9"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_all_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Упражнение для всех чисел" />
+
+    <Button
+        android:id="@+id/btn_selective"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Упражнение выборочно" />
+
+</LinearLayout>
